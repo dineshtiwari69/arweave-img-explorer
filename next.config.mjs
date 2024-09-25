@@ -3,6 +3,7 @@
 const nextConfig = {
     images: {
       domains: ['permagate.io'],
+      dangerouslyAllowSVG: true,
     },
   }
 export default nextConfig;
